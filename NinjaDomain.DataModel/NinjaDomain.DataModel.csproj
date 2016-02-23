@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201602231636071_AddBirthdayToNinja.Designer.cs">
       <DependentUpon>201602231636071_AddBirthdayToNinja.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602231748413_misspringFixed.cs" />
+    <Compile Include="Migrations\201602231748413_misspringFixed.Designer.cs">
+      <DependentUpon>201602231748413_misspringFixed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="NinjaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602231636071_AddBirthdayToNinja.resx">
       <DependentUpon>201602231636071_AddBirthdayToNinja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602231748413_misspringFixed.resx">
+      <DependentUpon>201602231748413_misspringFixed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
